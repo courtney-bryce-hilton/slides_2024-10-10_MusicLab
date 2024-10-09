@@ -40,6 +40,7 @@ title-logo: "./media/logos/auckland.png"
 **Downsides**
 
 - restrictive experimental setup
+- can't combine (easily) with eye tracking
 - expensive specialised equipment
 :::
 :::
@@ -78,7 +79,26 @@ title-logo: "./media/logos/auckland.png"
 
 ## step 2: tracing the pupil
 
+<br>
 
+::: columns
+::: {.column width="50%"}
+
+![](media/figures/deeplabcut_logo.png){width="90%"}
+:::
+
+::: {.column width="50%"}
+
+![](media/figures/sam_logo.png){width="90%"}
+:::
+:::
+
+## validation? {.center}
+
+<figure>
+  <img src="./media/figures/validation.png" class="center" width="70%">
+  <figcaption>Bainbridge, Bertolo, et al., 2021, *Nature Human Behaviour*</figcaption>
+</figure>
 
 # Musicality Genomics 
 
