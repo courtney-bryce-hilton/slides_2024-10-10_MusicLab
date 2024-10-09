@@ -180,9 +180,29 @@ title-logo: "./media/logos/auckland.png"
 
 ## how internally consistent are<br>the items in each scale? {.bit-smaller}
 
-![](media/figures/mgPScales_internalConsistency.png){width="50%" .centerImage}
+![](media/figures/mgPScales_internalConsistency.png){width="45%" .centerImage}
 
+## the factor scores
 
+![](media/figures/mgPScales_factorScores_perPhenotype.png){width="50%" .centerImage}
+
+## single item for each scale (mgP17)
+
+![](media/figures/mgPScales_singleItem.png){width="50%" .centerImage}
+
+## some quick validations<br>against MIQ data {.center}
+
+## melodic disrimination ability
+
+![](media/figures/melody.png){width="50%" .centerImage}
+
+## mistuning discrimination ability
+
+![](media/figures/tuning.png){width="50%" .centerImage}
+
+## beat alignment discrimination ability
+
+![](media/figures/beat.png){width="50%" .centerImage}
 
 
 ## thanks for your attention {.center}
