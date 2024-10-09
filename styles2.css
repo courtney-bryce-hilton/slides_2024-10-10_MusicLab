@@ -1,0 +1,17 @@
+.smolText {
+  font-size: 0.8em;
+}
+
+.hideThis {
+  visibility: hidden;
+}
+
+.centerImage {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.centerText {
+  text-align: center;
+}

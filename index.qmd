@@ -1,0 +1,194 @@
+---
+title: "machine-learning pupillometry<br>and musicality genomics"
+subtitle: "Labgroup meeting"
+author: "-<br>Courtney B. Hilton"
+css: styles2.css
+format:
+  revealjs:
+    theme: [default, styles.scss]
+    slide-number: true
+    template-partials:
+      - title-slide.html
+    auto-stretch: false
+title-slide-attributes:
+  data-background-color: "#00467F"
+  data-background-size: contain
+date: 2024-10-10
+date-format: long
+title-logo: "./media/logos/auckland.png"
+---
+
+
+## {background-color="black" background-image="./media/figures/pupil.png" background-size="cover" background-repeat="no-repeat" background-position="center" .hideThis}
+
+## how do we measure pupils? {.center}
+
+![](media/figures/pupil_setup.jpg){width="70%"}
+
+## infrared pupillometry
+
+::: columns
+::: {.column width="50%" .fragment .incremental}
+**Benefits**
+
+- highly validated
+- works well in low-light
+- very high temporal resolution
+:::
+
+::: {.column width="50%" .fragment .incremental}
+**Downsides**
+
+- restrictive experimental setup
+- expensive specialised equipment
+:::
+:::
+
+## is there another way? {.center}
+
+## {background-video="media/video/segment_anything.mp4" background-video-muted="true" background-video-loop="true" .hideThis}
+
+## machine-learning pupillometry
+
+::: columns
+::: {.column width="50%" .fragment .incremental}
+**Benefits**
+
+- less restrictive / more naturalistic
+- easy to combine with gaze tracking
+- less specialised equipment
+:::
+
+::: {.column width="50%" .fragment .incremental}
+**Downsides**
+
+- harder for dark-coloured irises?
+- harder in low-light environments?
+- lower temporal resolution
+:::
+:::
+
+## current project status {.center}
+
+## step 1: invariant eye window
+
+<video class="media_example centerImage" controls width="40%">
+<source src="media/video/eye_test.mp4" type="video/mp4">
+</video>
+
+## step 2: tracing the pupil
+
+
+
+# Musicality Genomics 
+
+![](media/logos/musicality_genomics.png){width="40%"}
+
+## phenotypes and genotypes {.center}
+
+![](media/figures/musicgens.png){width="90%"}
+
+## MusicGens Inventory of Musicality
+
+::: {.columns .smolText}
+::: {.column width="50%" .fragment .incremental}
+
+1. Beat Synchronization Abilities
+1. Musical Memory (Recognition)
+1. Mistuning Perception
+1. Emotional Reactivity to Music
+1. Musical Absorption
+1. Musical Enjoyment
+1. Beat Perception
+1. Musical Memory (Recall)
+:::
+
+::: {.column width="50%" .fragment .incremental}
+
+9. Singing Intonation
+1. General Rhythmic Ability
+1. Absolute Pitch
+1. Melodic Discrimination
+1. Melodic Creativity
+1. Propensity to Earworms
+1. Urge to Dance
+1. Rhythm Discrimination
+1. Urge to Join in with Music
+:::
+:::
+
+## MusicGens Inventory of Musicality
+
+![](media/figures/beat_item.png){width="90%" .centerImage}
+
+## a scale for each phenotype
+
+**Beat Perception**
+
+- I can tell when people sing or play out of time with the beat of the music.
+- I can hear when people are not in sync when they play a song. 
+- I can tell when music is sung or played in time with the beat.
+
+## mgPScales
+
+::: incremental
+
+- 17 phenotypes, 57 items
+- 3-5 items for each phenotype
+- each scale independent
+
+[are these scales measuring what we think?]{.box1 .center .fragment}
+[are the measures reliable?]{.box1 .center .fragment}
+[are they internally consistent?]{.box1 .center .fragment}
+:::
+
+## validating mgPScales on TML {.center}
+
+## where the data come from
+
+![](media/figures/mgP17_n_per_study.png){width="50%" .centerImage}
+
+## who are the participants
+
+::: {.columns .incremental}
+::: {.column width="50%"}
+![](media/figures/mgP17_ageDistribution.png){width="90%"}
+:::
+
+::: {.column width="50%" .fragment}
+![](media/figures/mgP17_education.png){width="90%"}
+:::
+:::
+
+## who are the participants
+
+::: {.columns .incremental}
+::: {.column width="50%" .incremental}
+![](media/figures/mgP17_country.png){width="90%"}
+:::
+
+::: {.column width="50%" .fragment}
+![](media/figures/mgP17_gender.png){width="60%"}
+:::
+:::
+
+## let's assess the items {.center}
+
+## does each factor capture the response variance? {.bit-smaller}
+
+![](media/figures/mgPScales_varianceExplained.png){width="45%" .centerImage}
+
+## how internally consistent are<br>the items in each scale? {.bit-smaller}
+
+![](media/figures/mgPScales_internalConsistency.png){width="50%" .centerImage}
+
+
+
+
+## thanks for your attention {.center}
+
+```{=html}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="zoomer.js"></script>
+<script type="text/javascript" src="audio_player.js"></script>
+```
